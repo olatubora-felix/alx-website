@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Epilogue:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Lexend+Deca:wght@300;400;500;600;700&family=Lobster&family=Merriweather&family=Rubik:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.section-hero {
+    background-color: #181a53;
+    width: 100%;
+    height: 100vh;
+    padding-top: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo {
+    width: 12rem;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.apply-section {
+    background-color: #e9edf0;
+}

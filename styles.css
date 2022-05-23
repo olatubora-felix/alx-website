@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Epilogue:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Lexend+Deca:wght@300;400;500;600;700&family=Lobster&family=Merriweather&family=Rubik:wght@400;500;700&display=swap");
+:root {
+    --primary: #181a53;
+    --darkblue: #115266;
+    --darkslate: #163648;
+    --whitesmoke: #edf4f6;
+    --yellow: #f5a31c;
+    --secondary: #6ff9e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+/* Header Section */
+
+.section-header {
+    background-color: var(--primary);
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* width: 12rem; */
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Hero Section */
+
+.section-hero {
+    background-color: var(--primary);
+    padding: 5rem 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-box {
+    width: 515px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.hero-description {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.btn {
+    background-color: var(--secondary);
+    width: 100%;
+    padding: 1rem 4.5rem;
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+.img-wrapper {
+    flex: 1;
+    width: 515px;
+    align-self: flex-end;
+}
+
+.hero-img {
+    height: 399px;
+    /* width: 419px; */
+}
+
+
+/* Apply Section */
+
+.section-apply {
+    background-color: var(--whitesmoke);
+    padding-top: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100vh;
+}
+
+.apply-text {
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 4rem;
+}
+
+.apply-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {}
+
+.box-img {
+    margin-bottom: 2rem;
+}
+
+.step {
+    color: #3b9b8a;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.step-title {
+    color: #181a53;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.step-text {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+
+/* Partners Section */
+
+.section-partners {
+    padding-top: 5rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5rem;
+}
+
+.partners-text {
+    text-align: center;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.partners-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Program Section */
+
+.section-program {
+    background-color: var(--whitesmoke);
+    padding-top: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100vh;
+    display: flex;
+}
+
+.program-text {}
+
+.program-title {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.program-texts {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.pro-img {
+    width: 100%;
+}
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.statuses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .big-wrapper {
+    padding: 1rem 0 2rem;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #181a53;
+} */
+
+
+/* .header-container {
+    height: 100vh;
+}
+
+header {
+    background-color: #181a53;
+    display: flex;
+} */
+
+;
